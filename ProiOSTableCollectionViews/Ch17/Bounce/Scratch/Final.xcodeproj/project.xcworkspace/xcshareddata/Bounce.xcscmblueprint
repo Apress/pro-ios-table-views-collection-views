@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AA063620939B398C5C866680735B7975D2F72DB6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "813D30B46ABA748E1BDE64FDE0F29037465B87B6" : 0,
+    "AA063620939B398C5C866680735B7975D2F72DB6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AEE28DDB-053E-4088-8E04-1A8941129074",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "813D30B46ABA748E1BDE64FDE0F29037465B87B6" : "..\/..\/..",
+    "AA063620939B398C5C866680735B7975D2F72DB6" : "Bounce\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Bounce",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Bounce.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:timd\/2ndEdition.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "813D30B46ABA748E1BDE64FDE0F29037465B87B6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:timd\/Bounce.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AA063620939B398C5C866680735B7975D2F72DB6"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+    "suits": [
+        {
+            "suitName": "Spades",
+            "packOrder": 1,
+            "cards": [
+                {
+                    "cardName": "Ace of Spades",
+                    "cardImage": "ace_of_spades.png",
+                    "suitOrder": 1,
+                    "cardValue": 14
+                },
+                {
+                    "cardName": "King of Spades",
+                    "cardImage": "king_of_spades.png",
+                    "suitOrder": 2,
+                    "cardValue": 13
+                },
+                {
+                    "cardName": "Queen of Spades",
+                    "cardImage": "queen_of_spades.png",
+                    "suitOrder": 3,
+                    "cardValue": 12
+                },
+                {
+                    "cardName": "Jack of Spades",
+                    "cardImage": "jack_of_spades.png",
+                    "suitOrder": 4,
+                    "cardValue": 11
+                },
+                {
+                    "cardName": "Ten of Spades",
+                    "cardImage": "10_of_spades.png",
+                    "suitOrder": 5,
+                    "cardValue": 10
+                },
+                {
+                    "cardName": "Nine of Spades",
+                    "cardImage": "9_of_spades.png",
+                    "suitOrder": 6,
+                    "cardValue": 9
+                },
+                {
+                    "cardName": "Eight of Spades",
+                    "cardImage": "8_of_spades.png",
+                    "suitOrder": 7,
+                    "cardValue": 8
+                },
+                {
+                    "cardName": "Seven of Spades",
+                    "cardImage": "7_of_spades.png",
+                    "suitOrder": 8,
+                    "cardValue": 7
+                },
+                {
+                    "cardName": "Six of Spades",
+                    "cardImage": "6_of_spades.png",
+                    "suitOrder": 9,
+                    "cardValue": 6
+                },
+                {
+                    "cardName": "Five of Spades",
+                    "cardImage": "5_of_spades.png",
+                    "suitOrder": 10,
+                    "cardValue": 5
+                },
+                {
+                    "cardName": "Four of Spades",
+                    "cardImage": "4_of_spades.png",
+                    "suitOrder": 11,
+                    "cardValue": 4
+                },
+                {
+                    "cardName": "Three of Spades",
+                    "cardImage": "3_of_spades.png",
+                    "suitOrder": 12,
+                    "cardValue": 3
+                },
+                {
+                    "cardName": "Two of Spades",
+                    "cardImage": "2_of_spades.png",
+                    "suitOrder": 13,
+                    "cardValue": 2
+                }
+            ]
+        },
+        {
+            "suitName": "Hearts",
+            "packOrder": 2,
+            "cards": [
+                {
+                    "cardName": "Ace of Hearts",
+                    "cardImage": "ace_of_hearts.png",
+                    "suitOrder": 1,
+                    "cardValue": 14
+                },
+                {
+                    "cardName": "King of Hearts",
+                    "cardImage": "king_of_hearts.png",
+                    "suitOrder": 2,
+                    "cardValue": 13
+                },
+                {
+                    "cardName": "Queen of Hearts",
+                    "cardImage": "queen_of_hearts.png",
+                    "suitOrder": 3,
+                    "cardValue": 12
+                },
+                {
+                    "cardName": "Jack of Hearts",
+                    "cardImage": "jack_of_hearts.png",
+                    "suitOrder": 4,
+                    "cardValue": 11
+                },
+                {
+                    "cardName": "Ten of Hearts",
+                    "cardImage": "10_of_hearts.png",
+                    "suitOrder": 5,
+                    "cardValue": 10
+                },
+                {
+                    "cardName": "Nine of Hearts",
+                    "cardImage": "9_of_hearts.png",
+                    "suitOrder": 6,
+                    "cardValue": 9
+                },
+                {
+                    "cardName": "Eight of Hearts",
+                    "cardImage": "8_of_hearts.png",
+                    "suitOrder": 7,
+                    "cardValue": 8
+                },
+                {
+                    "cardName": "Seven of Hearts",
+                    "cardImage": "7_of_hearts.png",
+                    "suitOrder": 8,
+                    "cardValue": 7
+                },
+                {
+                    "cardName": "Six of Hearts",
+                    "cardImage": "6_of_hearts.png",
+                    "suitOrder": 9,
+                    "cardValue": 6
+                },
+                {
+                    "cardName": "Five of Hearts",
+                    "cardImage": "5_of_hearts.png",
+                    "suitOrder": 10,
+                    "cardValue": 5
+                },
+                {
+                    "cardName": "Four of Hearts",
+                    "cardImage": "4_of_hearts.png",
+                    "suitOrder": 11,
+                    "cardValue": 4
+                },
+                {
+                    "cardName": "Three of Hearts",
+                    "cardImage": "3_of_hearts.png",
+                    "suitOrder": 12,
+                    "cardValue": 3
+                },
+                {
+                    "cardName": "Two of Hearts",
+                    "cardImage": "2_of_hearts.png",
+                    "suitOrder": 13,
+                    "cardValue": 2
+                }
+            ]
+        },
+        {
+            "suitName": "Diamonds",
+            "packOrder": 3,
+            "cards": [
+                {
+                    "cardName": "Ace of Diamonds",
+                    "cardImage": "ace_of_diamonds.png",
+                    "suitOrder": 1,
+                    "cardValue": 14
+                },
+                {
+                    "cardName": "King of Diamonds",
+                    "cardImage": "king_of_diamonds.png",
+                    "suitOrder": 2,
+                    "cardValue": 13
+                },
+                {
+                    "cardName": "Queen of Diamonds",
+                    "cardImage": "queen_of_diamonds.png",
+                    "suitOrder": 3,
+                    "cardValue": 12
+                },
+                {
+                    "cardName": "Jack of Diamonds",
+                    "cardImage": "jack_of_diamonds.png",
+                    "suitOrder": 4,
+                    "cardValue": 11
+                },
+                {
+                    "cardName": "Ten of Diamonds",
+                    "cardImage": "10_of_diamonds.png",
+                    "suitOrder": 5,
+                    "cardValue": 10
+                },
+                {
+                    "cardName": "Nine of Diamonds",
+                    "cardImage": "9_of_diamonds.png",
+                    "suitOrder": 6,
+                    "cardValue": 9
+                },
+                {
+                    "cardName": "Eight of Diamonds",
+                    "cardImage": "8_of_diamonds.png",
+                    "suitOrder": 7,
+                    "cardValue": 8
+                },
+                {
+                    "cardName": "Seven of Diamonds",
+                    "cardImage": "7_of_diamonds.png",
+                    "suitOrder": 8,
+                    "cardValue": 7
+                },
+                {
+                    "cardName": "Six of Diamonds",
+                    "cardImage": "6_of_diamonds.png",
+                    "suitOrder": 9,
+                    "cardValue": 6
+                },
+                {
+                    "cardName": "Five of Diamonds",
+                    "cardImage": "5_of_diamonds.png",
+                    "suitOrder": 10,
+                    "cardValue": 5
+                },
+                {
+                    "cardName": "Four of Diamonds",
+                    "cardImage": "4_of_diamonds.png",
+                    "suitOrder": 11,
+                    "cardValue": 4
+                },
+                {
+                    "cardName": "Three of Diamonds",
+                    "cardImage": "3_of_diamonds.png",
+                    "suitOrder": 12,
+                    "cardValue": 3
+                },
+                {
+                    "cardName": "Two of Diamonds",
+                    "cardImage": "2_of_diamonds.png",
+                    "suitOrder": 13,
+                    "cardValue": 2
+                }
+            ]
+        },
+        {
+            "suitName": "Clubs",
+            "packOrder": 4,
+            "cards": [
+                {
+                    "cardName": "Ace of Clubs",
+                    "cardImage": "ace_of_clubs.png",
+                    "suitOrder": 1,
+                    "cardValue": 14
+                },
+                {
+                    "cardName": "King of Clubs",
+                    "cardImage": "king_of_clubs.png",
+                    "suitOrder": 2,
+                    "cardValue": 13
+                },
+                {
+                    "cardName": "Queen of Clubs",
+                    "cardImage": "queen_of_clubs.png",
+                    "suitOrder": 3,
+                    "cardValue": 12
+                },
+                {
+                    "cardName": "Jack of Clubs",
+                    "cardImage": "jack_of_clubs.png",
+                    "suitOrder": 4,
+                    "cardValue": 11
+                },
+                {
+                    "cardName": "Ten of Clubs",
+                    "cardImage": "10_of_clubs.png",
+                    "suitOrder": 5,
+                    "cardValue": 10
+                },
+                {
+                    "cardName": "Nine of Clubs",
+                    "cardImage": "9_of_clubs.png",
+                    "suitOrder": 6,
+                    "cardValue": 9
+                },
+                {
+                    "cardName": "Eight of Clubs",
+                    "cardImage": "8_of_clubs.png",
+                    "suitOrder": 7,
+                    "cardValue": 8
+                },
+                {
+                    "cardName": "Seven of Clubs",
+                    "cardImage": "7_of_clubs.png",
+                    "suitOrder": 8,
+                    "cardValue": 7
+                },
+                {
+                    "cardName": "Six of Clubs",
+                    "cardImage": "6_of_clubs.png",
+                    "suitOrder": 9,
+                    "cardValue": 6
+                },
+                {
+                    "cardName": "Five of Clubs",
+                    "cardImage": "5_of_clubs.png",
+                    "suitOrder": 10,
+                    "cardValue": 5
+                },
+                {
+                    "cardName": "Four of Clubs",
+                    "cardImage": "4_of_clubs.png",
+                    "suitOrder": 11,
+                    "cardValue": 4
+                },
+                {
+                    "cardName": "Three of Clubs",
+                    "cardImage": "3_of_clubs.png",
+                    "suitOrder": 12,
+                    "cardValue": 3
+                },
+                {
+                    "cardName": "Two of Clubs",
+                    "cardImage": "2_of_clubs.png",
+                    "suitOrder": 13,
+                    "cardValue": 2
+                }
+            ]
+        },
+        {
+            "suitName": "Jokers",
+            "packOrder": 5,
+            "cards": [
+                {
+                    "cardName": "Black Joker",
+                    "cardImage": "black_joker.png",
+                    "suitOrder": 1,
+                    "cardValue": 1
+                },
+                {
+                    "cardName": "Red Joker",
+                    "cardImage": "red_joker.png",
+                    "suitOrder": 2,
+                    "cardValue": 2
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9059" systemVersion="14F19a" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchTarget" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="dPR-YR-16H">
+                            <items>
+                                <tableRow identifier="HeaderRow" selectable="NO" id="NQ3-9j-LrW" userLabel="Header row controller" customClass="HeaderRowController" customModule="WatchTarget_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="Uck-g2-MxY">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="My messages" textAlignment="center" id="tbc-ua-Qag"/>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                                <tableRow identifier="ContactRow" id="icB-Wx-BOA" userLabel="Contact row controller" customClass="ContactRowController" customModule="WatchTarget_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="y42-dr-lcD">
+                                        <items>
+                                            <imageView width="50" height="50" alignment="center" id="QRu-qs-yw5"/>
+                                            <label alignment="center" verticalAlignment="bottom" text="Name" textAlignment="center" id="ef6-Zf-QrL"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="avatarImage" destination="QRu-qs-yw5" id="BYe-bJ-cKP"/>
+                                        <outlet property="nameLabel" destination="ef6-Zf-QrL" id="1wh-pG-vV8"/>
+                                        <segue destination="pAK-Pf-Su4" kind="push" identifier="PushDetailScreenSegue" id="2UE-VY-Dzb"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="FooterRow" selectable="NO" id="YyK-96-KAg" userLabel="Footer row controller" customClass="FooterRowController" customModule="WatchTarget_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="wCW-gz-3aw">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="22 messages" id="GiC-vw-aYo"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="footerLabel" destination="GiC-vw-aYo" id="HjU-xM-gf8"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="watchTable" destination="dPR-YR-16H" id="DT4-Vk-O3c"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-120" y="-2.25"/>
+        </scene>
+        <!--Detail Interface Controller-->
+        <scene sceneID="iSn-7s-ncO">
+            <objects>
+                <controller id="pAK-Pf-Su4" customClass="DetailInterfaceController" customModule="WatchTarget_Extension">
+                    <items>
+                        <label alignment="left" text="Label" numberOfLines="0" id="FrU-x6-Ztb"/>
+                    </items>
+                    <connections>
+                        <outlet property="nameLabel" destination="FrU-x6-Ztb" id="QK4-ov-HBl"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-120" y="309"/>
+        </scene>
+    </scenes>
+</document>

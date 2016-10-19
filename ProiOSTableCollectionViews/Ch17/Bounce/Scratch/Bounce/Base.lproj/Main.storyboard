@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F19a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zid-vu-wgP">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewLayout key="collectionViewLayout" id="9CW-fd-zds"/>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cvCell" id="vTP-eA-vuU">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="1000" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Sc-wX-zXV">
+                                                    <rect key="frame" x="16" y="27" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="0Sc-wX-zXV" firstAttribute="centerX" secondItem="vTP-eA-vuU" secondAttribute="centerX" id="6Pb-DE-zOi"/>
+                                            <constraint firstItem="0Sc-wX-zXV" firstAttribute="centerY" secondItem="vTP-eA-vuU" secondAttribute="centerY" id="s1c-ki-S8J"/>
+                                        </constraints>
+                                        <size key="customSize" width="75" height="75"/>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="gKE-Bc-4dI"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="hb0-EK-uzg"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wUM-6g-LIU">
+                                <rect key="frame" x="525" y="540" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="6pi-AW-5gw"/>
+                                    <constraint firstAttribute="height" constant="60" id="cGZ-cF-Hfv"/>
+                                </constraints>
+                                <state key="normal" title="Remove"/>
+                                <connections>
+                                    <action selector="didTapRemoveItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1T1-oe-Y3k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jt0-s6-5Ly">
+                                <rect key="frame" x="20" y="540" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Bkv-Tn-PcD"/>
+                                    <constraint firstAttribute="width" constant="60" id="ZeY-Jc-8nc"/>
+                                </constraints>
+                                <state key="normal" title="Add"/>
+                                <connections>
+                                    <action selector="didTapAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HYH-vH-Rbt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zid-vu-wgP" secondAttribute="trailing" id="2It-Z6-mbx"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="wUM-6g-LIU" secondAttribute="bottom" id="4nt-gu-4Fe"/>
+                            <constraint firstItem="wUM-6g-LIU" firstAttribute="leading" secondItem="zid-vu-wgP" secondAttribute="trailing" constant="-75" id="8qa-z4-c8G"/>
+                            <constraint firstItem="jt0-s6-5Ly" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Abo-c9-aZH"/>
+                            <constraint firstItem="zid-vu-wgP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="G6e-SA-8to"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zid-vu-wgP" secondAttribute="bottom" id="NBH-2H-Fzg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jt0-s6-5Ly" secondAttribute="bottom" id="p93-wU-WPU"/>
+                            <constraint firstItem="zid-vu-wgP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wcG-1V-3Bq"/>
+                            <constraint firstItem="zid-vu-wgP" firstAttribute="leading" secondItem="jt0-s6-5Ly" secondAttribute="trailing" constant="50" id="yjq-o9-jUx"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="yjq-o9-jUx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="zid-vu-wgP" id="6hU-pq-PAV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

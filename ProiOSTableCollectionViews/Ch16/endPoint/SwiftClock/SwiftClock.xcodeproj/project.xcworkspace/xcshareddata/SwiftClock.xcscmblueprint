@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DEB51D16B11C16DA9DB6F6077AE05A02D86144CD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "971650A379C82FF3029BFB2C1851FE037E018A9F" : 0,
+    "DEB51D16B11C16DA9DB6F6077AE05A02D86144CD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6D295999-1F38-4604-B212-9BD6E8ACC6C9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "971650A379C82FF3029BFB2C1851FE037E018A9F" : "..\/..\/..",
+    "DEB51D16B11C16DA9DB6F6077AE05A02D86144CD" : "SwiftClock\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftClock",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftClock.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:timd\/ProiOSTableCollectionViews.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "971650A379C82FF3029BFB2C1851FE037E018A9F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:timd\/SwiftClock.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DEB51D16B11C16DA9DB6F6077AE05A02D86144CD"
+    }
+  ]
+}
